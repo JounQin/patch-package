@@ -1,14 +1,13 @@
 import picocolors from "picocolors"
 import console from "console"
-import { renameSync } from "fs"
 import {
-  copySync,
   existsSync,
-  mkdirpSync,
+  renameSync,
   mkdirSync,
   realpathSync,
   writeFileSync,
-} from "fs-extra"
+} from "fs"
+import { copySync, mkdirpSync } from "fs-extra"
 import { sync as rimraf } from "rimraf"
 import { dirSync } from "tmp"
 import { gzipSync } from "zlib"
