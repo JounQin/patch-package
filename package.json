@@ -78,7 +78,6 @@
   },
   "dependencies": {
     "@yarnpkg/lockfile": "^1.1.0",
-    "chalk": "^4.1.2",
     "ci-info": "^3.7.0",
     "cross-spawn": "^7.0.3",
     "find-yarn-workspace-root": "^2.0.0",
@@ -87,6 +86,7 @@
     "klaw-sync": "^6.0.0",
     "minimist": "^1.2.6",
     "open": "^7.4.2",
+    "picocolors": "^1.0.0",
     "rimraf": "^2.6.3",
     "semver": "^7.5.3",
     "slash": "^2.0.0",
