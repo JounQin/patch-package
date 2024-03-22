@@ -548,7 +548,19 @@ dependencies:
 "@nodelib/fs.scandir" "2.1.4"
 fastq "^1.6.0"
 
-"@samverschueren/stream-to-observable@^0.3.0", "@samverschueren/stream-to-observable@^0.3.1":
+"@nolyfill/json-stable-stringify@^1.0.30":
+version "1.0.30"
+resolved "https://registry.yarnpkg.com/@nolyfill/json-stable-stringify/-/json-stable-stringify-1.0.30.tgz#edff60da41cee9dd7f81028c527acf7f7b91df64"
+integrity sha512-o1iEMo6ad7T2cKxZTzAb3u+Q3/H21SSsKFf5oAVn7PjmT7MJ0Ek2SeVcEdgVUmLmj31/jKo7U5zJWcTaC10Qow==
+
+"@samverschueren/stream-to-observable@^0.3.0":
+version "0.3.0"
+resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
+integrity sha512-MI4Xx6LHs4Webyvi6EbspgyAb4D2Q2VtnCQ1blOJcoLS6mVa8lNN2rkIy1CVxfTUpoyIbCTkXES1rLXztFD1lg==
+dependencies:
+any-observable "^0.3.0"
+
+"@samverschueren/stream-to-observable@^0.3.1":
 version "0.3.1"
 resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.1.tgz#a21117b19ee9be70c379ec1877537ef2e1c63301"
 integrity sha512-c/qwwcHyafOQuVQJj0IlBjf5yYgBI7YPJ77k4fOJYesb41jio65eaJODRUmfYKhTOFBrIZ66kgvGPlNbjuoRdQ==
@@ -681,10 +693,10 @@ integrity sha512-2kLuPC5FDnWIDvaJBzsGTBQaBbnDweznicvK7UGYzlIJP4RJR2a4A/ByLUXEyEg
 dependencies:
 "@types/jest-diff" "*"
 
-"@types/json-stable-stringify@^1.0.34":
-version "1.0.34"
-resolved "https://registry.yarnpkg.com/@types/json-stable-stringify/-/json-stable-stringify-1.0.34.tgz#c0fb25e4d957e0ee2e497c1f553d7f8bb668fd75"
-integrity sha512-s2cfwagOQAS8o06TcwKfr9Wx11dNGbH2E9vJz1cqV+a/LOyhWNLUNd6JSRYNzvB4d29UuJX2M0Dj9vE1T8fRXw==
+"@types/json-stable-stringify@^1.0.36":
+version "1.0.36"
+resolved "https://registry.yarnpkg.com/@types/json-stable-stringify/-/json-stable-stringify-1.0.36.tgz#fe6c6001a69ff8160a772da08779448a333c7ddd"
+integrity sha512-b7bq23s4fgBB76n34m2b3RBf6M369B0Z9uRR8aHTMd8kZISRkmDEpPD8hhpYvDFzr3bJCPES96cm3Q6qRNDbQw==
 
 "@types/keyv@*", "@types/keyv@^3.1.1":
 version "3.1.1"
@@ -3814,13 +3826,6 @@ json-schema@0.2.3:
 version "0.2.3"
 resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
 
-json-stable-stringify@^1.0.2:
-version "1.0.2"
-resolved "https://registry.yarnpkg.com/json-stable-stringify/-/json-stable-stringify-1.0.2.tgz#e06f23128e0bbe342dc996ed5a19e28b57b580e0"
-integrity sha512-eunSSaEnxV12z+Z73y/j5N37/In40GK4GmsSy+tEHJMxknvqnA7/djeYtAgW0GsWHUfg+847WJjKaEylk2y09g==
-dependencies:
-jsonify "^0.0.1"
-
 json-stringify-safe@~5.0.1:
 version "5.0.1"
 resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
@@ -3847,11 +3852,6 @@ dependencies:
 universalify "^2.0.0"
 optionalDependencies:
 graceful-fs "^4.1.6"
-
-jsonify@^0.0.1:
-version "0.0.1"
-resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.1.tgz#2aa3111dae3d34a0f151c63f3a45d995d9420978"
-integrity sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==
 
 jsprim@^1.2.2:
 version "1.4.0"
